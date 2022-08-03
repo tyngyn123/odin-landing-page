@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', Arial;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    padding: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.hero-content img {
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.right-links a,
+.hero-content p {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.right-links a {
+    text-decoration: none;
+    margin: 12px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid black;
+    padding: 16px 24px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tp-cards {
+    display: flex
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    border-color: #1F2937;
+    border-radius: 6px;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    align-self: center;
+}
+
+.author {
+    font-style: bold;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 4px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
